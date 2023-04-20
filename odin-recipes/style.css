@@ -1,0 +1,20 @@
+#title {
+    text-align: center;
+    background-color: bisque;
+}
+
+.recipe {
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    font: "Courier New", "Times New Roman", "sans-serif";
+    background-color: peachpuff;
+    color: black;
+}
+
+.opening {
+    font-size: 24px;
+    text-align: center;
+}
