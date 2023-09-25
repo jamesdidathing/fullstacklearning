@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #title {
     text-align: center;
     background-color: bisque;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px black;
 }
 
-.recipe {
+li {
     color: white;
     text-align: center;
 }
 
+a:hover {
+    color: pink;
+    background-color: black;
+}
+
 .paragraph {
-    font: "Courier New", "Times New Roman", "sans-serif";
+    font-family: 'Roboto', "Courier New", "Times New Roman", "sans-serif";
     background-color: peachpuff;
     color: black;
 }
