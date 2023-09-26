@@ -42,6 +42,7 @@ body {
     margin: 0 1%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .text {
@@ -50,6 +51,8 @@ body {
     padding: 20px;
     flex: 1 0 auto;
     text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 a {
@@ -86,6 +89,8 @@ img {
     position: absolute;
     top: 0;
     left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
 .paragraph {
@@ -100,6 +105,12 @@ img {
     padding: 0.5rem;
     color: var(--main-text-colour);
 }
+
+.table-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 table {
     margin-left: 2%;
