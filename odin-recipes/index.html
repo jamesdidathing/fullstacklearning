@@ -6,16 +6,43 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="title">James' Recipes</h1>
-        <p class="paragraph opening">Hello! Welcome to my website, where you can find
+        <header>
+            <h1 id="title">Random Recipes</h1>
+        </header>
+        
+        <p class="opening">Hello! Welcome to my website, where you can find
             all sorts of recipes!
         </p>
-        <ul>
-            <li class="recipe"><a href="recipes/lasagna.html">Lasagna Recipe</a></li>
-            <li class="recipe"><a href="recipes/cheesetoastie.html">Cheese Toastie Recipe</a></li>
-            <li class="recipe"><a href="recipes/tomatosoup.html">Tomato Soup Recipe</a></li>
-        </ul>
-        <p class="paragraph">I hope you enjoy the website, it's the best one <strong>ever!</strong></p>
+        <div id="recipe-container">
+            <div class="card">
+                <div class="text">
+                    <a href="recipes/lasagna.html">Lasagna Recipe</a>
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/lasagna.jpeg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <a href="recipes/cheesetoastie.html">Cheese Toastie Recipe</a>
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/toastie.jpeg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <a href="recipes/tomatosoup.html">Tomato Soup Recipe</a>
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/soup.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <a<p class="paragraph">I hope you enjoy the website, it's the best one <strong>ever!</strong></p>
+
+
         <table>
             <caption>the james rating system</caption>
             <thead>
