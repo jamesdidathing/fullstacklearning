@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --main-text-colour: gray;
+
+}
+
 
 header {
     position: sticky;
@@ -85,7 +90,7 @@ img {
 
 .paragraph {
     font-family: 'Roboto', "Courier New", "Times New Roman", "sans-serif";
-    color: black;
+    color: var(--main-text-colour);
     text-align: center;
     margin-left: 10px;
 }
@@ -93,6 +98,7 @@ img {
 .opening {
     font-size: 24px;
     padding: 0.5rem;
+    color: var(--main-text-colour);
 }
 
 table {
@@ -102,6 +108,7 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
     margin-top: 10px;
+    color: black;
   }
 
 td, th {
