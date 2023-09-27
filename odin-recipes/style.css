@@ -2,7 +2,7 @@
 
 :root {
     --main-text-colour: gray;
-
+    --heading-text-colour: wheat;
 }
 
 
@@ -12,7 +12,7 @@ header {
 }
 
 #title {
-    color: wheat;
+    color: var(--heading-text-colour);
     text-align: center;
     background-color:chocolate;
     letter-spacing: .3em;
@@ -47,7 +47,7 @@ body {
 
 .text {
     font-family: Helvetica, sans-serif;
-    background-color:gainsboro;
+    background-color:white;
     padding: 20px;
     flex: 1 0 auto;
     text-align: center;
@@ -58,7 +58,7 @@ body {
 a {
     background-color:darkorange;
     box-shadow: 0 5px 0 chocolate;
-    color: white;
+    color: var(--heading-text-colour);
     padding: 2%;
     position: relative;
     text-decoration: none;
@@ -75,23 +75,19 @@ a {
     top: 5px;
   }
 
-.image-wrapper {
-    height: 0;
-    padding-top: 100%;
-    position: relative;
-  }
+  .image-wrapper {
+    display: flex;
+    padding: 10px; /* Adjust the padding size as needed */
+    border-radius: 20px;
+    overflow: hidden;
+}
 
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
+}
 
 .paragraph {
     font-family: 'Roboto', "Courier New", "Times New Roman", "sans-serif";
@@ -110,7 +106,6 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 table {
     margin-left: 2%;
