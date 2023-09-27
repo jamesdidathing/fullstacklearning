@@ -64,18 +64,18 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     background-color:chocolate;
-  }
-  
-  a:active {
+}
+
+a:active {
     box-shadow: none;
     top: 5px;
-  }
+}
 
-  .image-wrapper {
+.image-wrapper {
     display: flex;
     padding: 10px; /* Adjust the padding size as needed */
     border-radius: 20px;
@@ -115,17 +115,17 @@ table {
     font-size: 0.8rem;
     margin-top: 10px;
     color: black;
-  }
+}
 
 td, th {
-  border: 1px solid rgb(190,190,190);
-  padding: 10px 20px;
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
 }
 
 th {
-  background-color: rgb(235,235,235);
+    background-color: rgb(235,235,235);
 }
 
 td {
-  text-align: center;
+    text-align: center;
 }
