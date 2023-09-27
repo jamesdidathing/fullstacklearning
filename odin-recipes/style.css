@@ -114,6 +114,7 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: black;
 }
 
@@ -128,4 +129,19 @@ th {
 
 td {
     text-align: center;
+}
+
+.form-container {
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.forms {
+    margin-bottom: 10px;
+}
+
+label {
+
 }
