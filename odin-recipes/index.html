@@ -10,9 +10,6 @@
             <h1 id="title">Random Recipes</h1>
         </header>
         
-        <p class="opening">Hello! Welcome to my website, where you can find
-            all sorts of recipes!
-        </p>
         <div id="recipe-container">
             <div class="card">
                 <div class="text">
@@ -93,28 +90,41 @@
 
 
 
-        <p>Here are some forms, showcasing the various types we can use. The submit button is a "POST" method to httpbin, which returns the data back to
+        <p id="form-text">Here are some forms, showcasing the various types we can use. The submit button is a "POST" method to httpbin, which returns the data back to
             the user!
         </p>
         <div class="form-container">
             <form action="https://httpbin.org/post" method="post">
-                <div class="forms">
-                  <label for="first_name">First Name:</label>
-                  <input type="text" name="first_name" id="first_name">
-                </div>
-              
-                <div class="forms">
-                  <label for="last_name">Last Name:</label>
-                  <input type="text" name="last_name" id="last_name">
-                </div>
-              
-                <div class="forms">
-                  <label for="age">Age:</label>
-                  <input type="number" name="age" id="age">
-                </div>
-              
-                <button id="submit-button" type="submit">Submit</button>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+                    <div></div>
+                
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    <div></div>
+
+                    <label for="user_password">Password:</label>
+                    <input type="password" name="password" id="user_password">
+                    <div></div>
+
+                    <label for="age">Age:</label>
+                    <select name="Car">
+                        <option value="Under 10">Under 10</option>
+                        <option value="10-16">10-16</option>
+                        <option value="16-18">16-18</option>
+                        <option value="18-24">18-24</option>
+                        <option value="24-40">24-40</option>
+                        <option value="40+">40+</option>
+                    </select>
+                    <div></div>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob">
+                    <div></div>
+
             </form>
+            <textarea cols="30" rows="10">Write your review here! (it doesn't go anywhere yet)</textarea>
+            <button id="submit-button" type="submit">Submit</button>
         </div>
 
 
