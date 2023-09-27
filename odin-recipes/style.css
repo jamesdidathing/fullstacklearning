@@ -31,6 +31,7 @@ body {
 
 #recipe-container {
     display: flex;
+    margin-top: 30px;
 }
 
 .card {
@@ -96,12 +97,6 @@ img {
     margin-left: 10px;
 }
 
-.opening {
-    font-size: 24px;
-    padding: 0.5rem;
-    color: var(--main-text-colour);
-}
-
 .table-container {
     display: flex;
     justify-content: space-evenly;
@@ -131,17 +126,28 @@ td {
     text-align: center;
 }
 
+#form-text {
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+
 .form-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    color: black;
     margin: 10px;
+}
+
+label, select {
     display: inline-block;
     width: 150px;
-    text-align: left;
+    text-align: right;
+    margin: 3px;
 }
 
-.forms {
-    margin-bottom: 10px;
-}
-
-label {
-
+#submit-button {
+    height: 30px;
 }
