@@ -184,3 +184,13 @@ span {
     margin-left: 30px;
     gap: 50px;
 }
+
+.fieldset-container {
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+fieldset {
+    padding: 2em;
+}
