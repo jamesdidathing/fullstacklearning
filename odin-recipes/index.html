@@ -90,7 +90,7 @@
 
 
 
-        <p id="form-text">Here are some forms, showcasing the various types we can use. The submit button is a "POST" method to httpbin, which returns the data back to
+        <p class="left-text">Here are some forms, showcasing the various types we can use. The submit button is a "POST" method to httpbin, which returns the data back to
             the user!
         </p>
         <div class="form-container">
@@ -131,11 +131,49 @@
                     <button id="submit-button" type="submit">Submit</button>
             </form>   
         </div>
+
         <div id="button-paragraph">
             <p>And here we are going to display some radio buttons and check marks, and the different ways we
                 can use them. Also, here is me using the span element: <span>these words are formatted!</span>
             </p>
         </div>
+
+        <p class="left-text">You can only select one of these buttons, as they are under the same name.</p>
+        <div class="radio-container">
+            <div>
+                <input type="radio" id="child" name="ticket_type" value="child">
+                <label for="child">Child</label>
+            </div>
+            <div>
+                <input type="radio" id="adult" name="ticket_type" value="adult">
+                <label for="adult">Adult</label>
+            </div>
+            <div>
+                <input type="radio" id="senior" name="ticket_type" value="senior">
+                <label for="senior">Senior</label>
+            </div>
+        </div>
+
+        <p class="left-text">Whereas here, we can select multiple options.</p>
+        <div class="check-container">
+            <div>
+                <input type="checkbox" id="sausage" name="topping" value="sausage">
+                <label for="sausage">Sausage</label>
+            </div>
+            <div>
+                <input type="checkbox" id="onions" name="topping" value="onions">
+                <label for="onions">Onions</label>
+            </div>
+            <div>
+                <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+                <label for="mushrooms">Mushrooms</label>
+            </div>
+        </div>
+
 
 
 
