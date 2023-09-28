@@ -132,22 +132,38 @@ td {
     margin-left: 10px;
 }
 
+#button-paragraph {
+    width: 50%;
+    margin-right: 10px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+
+span {
+    color: blue;
+}
+
 .form-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 60%;
+    margin: 0 1%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 20px;
+    border-radius: 20px;
     color: black;
     margin: 10px;
+    border-style: solid;
+    border-color: chocolate;
 }
 
-label, select {
+.forms {
     display: inline-block;
     width: 150px;
-    text-align: right;
-    margin: 3px;
+    text-align: left;
+    margin: 6px;
 }
 
-#submit-button {
-    height: 30px;
+label {
+    display: block;
+    margin: 5px;
 }
