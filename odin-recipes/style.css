@@ -126,18 +126,10 @@ td {
     text-align: center;
 }
 
-#form-text {
+.left-text {
     width: 50%;
     text-align: left;
     margin-left: 10px;
-}
-
-#button-paragraph {
-    width: 50%;
-    margin-right: 10px;
-    text-align: right;
-    position: absolute;
-    right: 0;
 }
 
 span {
@@ -163,7 +155,32 @@ span {
     margin: 6px;
 }
 
-label {
+.form-container label {
     display: block;
     margin: 5px;
+}
+
+#button-paragraph {
+    width: 40%;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: right;
+    position: absolute;
+    right: 50px;
+}
+
+.radio-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.check-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-left: 30px;
+    gap: 50px;
 }
