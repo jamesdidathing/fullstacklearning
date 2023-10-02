@@ -178,7 +178,7 @@
 
         <p class="left-text">Another useful thing we can use is a <strong>fieldset</strong>, which helps group
         forms together and we can give them legends. We are also making use of tags such as <strong>
-            required, min length, max length </strong></p>
+            required, min length, max length, pattern validation </strong></p>
         
         <div class="fieldset-container">
             <fieldset>
@@ -204,7 +204,10 @@
                 <input type="text" id="city" name="city">
 
                 <label for="zip_code">Zip Code:</label>
-                <input type="text" id="zip_code" name="zip_code">
+                <input type="text" id="zip_code" name="zip_code"
+                    pattern="(\d{5}([\-]\d{4})?)" 
+                    title="Please enter a valid zip code, example: 65251" 
+                    placeholder="65251" required>
             </fieldset>
         </div>
 
