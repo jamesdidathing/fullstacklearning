@@ -5,19 +5,24 @@
     --heading-text-colour: wheat;
 }
 
-
-header {
-    position: sticky;
-    top: 0;
-}
-
 #title {
     color: var(--heading-text-colour);
     text-align: center;
-    background-color:chocolate;
+    background-color:darkorange;
     letter-spacing: .3em;
     text-shadow: 1px 1px 2px white;
     padding: 0.8rem;
+}
+
+#sticky-div {
+    color: var(--heading-text-colour);
+    text-align: center;
+    background-color:darkorange;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px white;
+    padding: 0.8rem;
+    position: sticky;
+    top: 0;
 }
 
 *{
@@ -95,6 +100,15 @@ img {
     color: var(--main-text-colour);
     text-align: center;
     margin-left: 10px;
+}
+
+#rating-table {
+    color: var(--heading-text-colour);
+    text-align: center;
+    background-color:chocolate;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px white;
+    padding: 0.8rem;
 }
 
 .table-container {
@@ -186,11 +200,25 @@ span {
 }
 
 .fieldset-container {
-    width: 60%;
-    margin-left: 20px;
+    width: auto;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
 fieldset {
-    padding: 2em;
+    padding: 1em;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+fieldset label {
+    margin: 10px;
+    margin-left: 30px;
+    gap: 50px;
 }
