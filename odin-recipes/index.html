@@ -7,9 +7,10 @@
     </head>
     <body>
         <header>
-            <h1 id="title">Random Recipes</h1>
+            <h1 id="title">Welcome to Random Recipes!</h1>
         </header>
         
+        <h2 id="sticky-div">Recipes</h2>
         <div id="recipe-container">
             <div class="card">
                 <div class="text">
@@ -38,7 +39,7 @@
         </div>
 
         <p class="paragraph">I hope you enjoy the website, it's the best one <strong>ever!</strong></p>
-
+        <h2 id="sticky-div">Rating Table</h2>
         <div class="table-container">
             <table>
                 <caption>the james rating system</caption>
@@ -176,14 +177,15 @@
         </div>
 
         <p class="left-text">Another useful thing we can use is a <strong>fieldset</strong>, which helps group
-        forms together and we can give them legends.</p>
+        forms together and we can give them legends. One of these boxes also uses the <strong>required</strong>
+        tag.</p>
         
         <div class="fieldset-container">
             <fieldset>
                 <legend>Contact Details</legend>
 
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <label for="name">*Name:</label>
+                <input type="text" id="name" name="name" required>
 
                 <label for="phone_number">Phone Number:</label>
                 <input type="tel" id="phone_number" name="phone_number">
@@ -205,8 +207,6 @@
                 <input type="text" id="zip_code" name="zip_code">
             </fieldset>
         </div>
-
-
 
     </body>
 </html>
