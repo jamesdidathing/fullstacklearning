@@ -177,21 +177,21 @@
         </div>
 
         <p class="left-text">Another useful thing we can use is a <strong>fieldset</strong>, which helps group
-        forms together and we can give them legends. One of these boxes also uses the <strong>required</strong>
-        tag.</p>
+        forms together and we can give them legends. We are also making use of tags such as <strong>
+            required, min length, max length </strong></p>
         
         <div class="fieldset-container">
             <fieldset>
                 <legend>Contact Details</legend>
 
-                <label for="name">*Name:</label>
-                <input type="text" id="name" name="name" required>
+                <label for="name">*Name (required):</label>
+                <input type="text" id="name" name="name" required >
 
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number">
+                <label for="phone_number">Phone Number (min length 11):</label>
+                <input type="tel" id="phone_number" name="phone_number" minlength="11">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <label for="email">Email (max length 40):</label>
+                <input type="email" id="email" name="email" maxlength="40">
             </fieldset>
 
             <fieldset>
