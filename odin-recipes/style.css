@@ -203,6 +203,7 @@ span {
     width: auto;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 fieldset {
@@ -221,4 +222,26 @@ fieldset label {
     margin: 10px;
     margin-left: 30px;
     gap: 50px;
+}
+
+#grid-text {
+        text-align: center;
+}
+
+.grid-display {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px;
+    gap: 32px;
+}
+
+.grid {
+    background-color: peachpuff;
+    border: 1px solid black;
 }
