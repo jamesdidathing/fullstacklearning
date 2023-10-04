@@ -12,7 +12,14 @@ Current features of the page are:
 - Some forms, using the various different types, with a `POST` method on the submit button.
 - Radio buttons and check marks.
 
+
+## Login page from scratch
+![Login Project](practice/images/login-ss.jpg)
+
+## Recipe Website, utilising elements that are learned in the tutorials
 ![Current](odin-recipes/images/current.jpeg)
+
+
 
 ## Technologies Used
 - HTML
