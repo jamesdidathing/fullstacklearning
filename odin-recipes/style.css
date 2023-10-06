@@ -232,19 +232,34 @@ fieldset label {
     display: flex;
     justify-content: center;
     padding: 3%;
+    width: 80%;
 }
 
 .grid-container {
+    resize: both;
+    overflow: auto;
     display: grid;
-    grid-template-columns: 75px 75px 75px;
-    grid-template-rows: 75px 75px;
-    gap: 32px;
-}
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, minmax(150px, 200px));
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
 
-.grid {
-    background-color: peachpuff;
-    border: 1px solid black;
-}
 
 .room-container {
     display: inline-grid;
