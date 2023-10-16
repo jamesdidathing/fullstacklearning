@@ -66,12 +66,12 @@
 }
 
 .nav-bar {
-    border-style: dashed;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
     padding-left: 40px;
+    box-shadow: 0 4px 5px 0px gainsboro;
     
     display: grid;
     grid-template-rows: 40% 40%;
@@ -122,7 +122,7 @@ input {
 
 .nav-bottom {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
 }
 
 .welcome {
@@ -150,3 +150,29 @@ input {
     font-size: 24px;
     font-weight: bold;
 }
+
+.user-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+
+button {
+    background-color: #052e16;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+button:hover {
+    background-color: #16a34a;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
