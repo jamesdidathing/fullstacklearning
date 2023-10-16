@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Roboto', "Courier New", "Times New Roman", "sans-serif";
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 15vh 85vh;
+}
+
+.sidebar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #052e16;
+    color:white;
+    
+}
+
+
+
+.menu {
+    display: grid;
+    grid-template-rows: 10fr 40fr 20fr;
+    row-gap: 30px;
+    margin-top: 20px;
+}
+
+.logo {
+    padding-inline-start: 10px;
+}
+
+.logo li {
+    display: flex; 
+    align-items: center; 
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.dash-icon {
+    width: 45px; 
+    height: 45px; 
+    margin-right: 10px; 
+}
+
+.links {
+    padding-inline-start: 20px;
+}
+
+.links li {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+    font-size: larger;
+    font-weight:500;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.link-icon {
+    margin-right: 20px;
+}
+
+
+.nav-bar {
+    display: grid;
+    border-style: dashed;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
