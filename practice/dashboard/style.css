@@ -24,7 +24,7 @@
 
 .menu {
     display: grid;
-    grid-template-rows: 10fr 40fr 20fr;
+    grid-template-rows: 8fr 40fr 20fr;
     row-gap: 30px;
     margin-top: 20px;
 }
@@ -34,7 +34,7 @@
     padding-right: 10px;
 }
 
-.logo li {
+.logo>li {
     display: flex; 
     align-items: center; 
     font-size: 25px;
@@ -47,23 +47,33 @@
     margin-right: 10px; 
 }
 
-.links {
-    padding-inline-start: 20px;
-}
-
-.links li {
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-start;
-    font-size: larger;
-    font-weight: 500;
-    list-style-type: none;
-    margin-bottom: 20px;
-}
-
 .link-icon {
     margin-right: 20px;
 }
+
+.links a {
+    display:        flex;
+    flex-grow:      1;
+    flex-shrink:    1;
+    align-items: center;
+    height: 30px;
+    font-size: larger;
+    font-weight: 500;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+a { 
+    text-decoration: none; 
+    color:white; 
+}
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; background-color: #16a34a; transition: 0.2s; padding-left: 40px;}
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
 
 .nav-bar {
     grid-column-start: 2;
@@ -75,7 +85,6 @@
     
     display: grid;
     grid-template-rows: 40% 40%;
-
 }
 
 .nav-top {
