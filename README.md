@@ -16,8 +16,8 @@ Current features of the page are:
 ## Login page from scratch
 ![Login Project](practice/images/login-ss.jpg)
 
-## Recipe Website, utilising elements that are learned in the tutorials
-![Current](odin-recipes/images/current.jpeg)
+## Project dashboard utlising all the lessons
+![Dashboard](ezgif-3-7de5a7e6a3.gif)
 
 
 
