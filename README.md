@@ -19,3 +19,7 @@ The aim is to create a functional website (of any context) using the knowledge g
 - HTML
 - CSS
 Eventually this will include JavaScript and Bootstrap.
+
+
+## Ideas for website
+percentage of day/week/month/year passed (simple)
